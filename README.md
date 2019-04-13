@@ -5,7 +5,7 @@ This work will assemble 2D laser scans from Gazebo and turned them into PCL poin
 For this work, first I loaded the RRBot in Gazebo and launched Its joints controller, then I sent a periodic signal to the robot such that the laser scanner mounted on the robot swings.
 In the following, I assembled the incoming laser scans with the transformation from tf and created PCL point cloud.
 
-##Install the necessary package:
+## Install the necessary package:
 
 
 ```
@@ -13,7 +13,7 @@ sudo apt-get install ros-kinetic-laser-assembler ros-kinetic-laser-geometry ros-
 ```
 
 
-##Check out the RRbot Code
+## Check out the RRbot Code
 Checkout the RRbot and then change the branch into kinetic-devel
 
 ```
@@ -73,7 +73,7 @@ and the frequency into 50 Hz, and /rrbot/joint2_position_controller/command)  in
 ![Alt text](images/rqt_rrbot_joint2_position_controller_command.jpg?raw=true "rrbot joint values")
 
 
-##Laser Assembler
+## Laser Assembler
 ```
 
 mkdir -p catkin_ws/src && cd catkin_ws/src
@@ -110,8 +110,8 @@ roslaunch  laser_assembler.launch
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Cl5XRS78R4Y/0.jpg)](https://www.youtube.com/watch?v=Cl5XRS78R4Y)
 
-
-
+![alt text](https://img.shields.io/badge/license-BSD-blue.svg)
+[![Build Status](https://travis-ci.org/behnamasadi/laser_assembler.svg?branch=master)](https://travis-ci.org/behnamasadi/laser_assembler)
 
 
 

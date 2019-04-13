@@ -25,7 +25,7 @@ git clone https://github.com/ros-simulation/gazebo_ros_demos
 
 Add the path to ROS_PACKAGE_PATH
 ```
-source /opt/ros/indigo/setup.bash
+source /opt/ros/kinetic/setup.bash
 export ROS_PACKAGE_PATH=/home/behnam/gazebo_ros_demos/:$ROS_PACKAGE_PATH
 ```
 
